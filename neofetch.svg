@@ -64,36 +64,36 @@
   <circle cx="70" cy="22" r="7" fill="#27C93F"/>
   <text class="title" x="465" y="26" text-anchor="middle">pablo@morales: ~ neofetch</text>
 
-  <!-- ========== ASCII FACE — 30 lines, 18.5px spacing ========== -->
-  <text class="face f0"  x="28" y="58"  xml:space="preserve">                 g@M%@%%@N%Nw,,</text>
-  <text class="face f1"  x="28" y="77"  xml:space="preserve">              ,M*|`||*%gNM=]mM%g||%N,,,gNw%%</text>
-  <text class="face f2"  x="28" y="96"  xml:space="preserve">             p!'`  '! |'`  '''||jhlj%wg@@@@%%N</text>
-  <text class="face f3"  x="28" y="115" xml:space="preserve">            ,@L `    ,,    ''!`|j%M]%M@@@@@@%N</text>
-  <text class="face f4"  x="28" y="134" xml:space="preserve">            ]j'`  .,wp@pw,    ''''|%Wg@@@@@@%%</text>
-  <text class="face f5"  x="28" y="153" xml:space="preserve">           /{|]|]@@@@@@@@pp.       |||||%@@@@%</text>
-  <text class="face f6"  x="28" y="172" xml:space="preserve">          `~ ']@@@@@@@@@@@@p    ''''  `  %@@%</text>
-  <text class="face f7"  x="28" y="191" xml:space="preserve">           , :]%%@@@@%%%%%k%h '*||mkr   *</text>
-  <text class="face f8"  x="28" y="210" xml:space="preserve">           ' j%M`    |jkk'  ~nrn=|i   ,`</text>
-  <text class="face f9"  x="28" y="229" xml:space="preserve">           !  jrr*^`        `&quot;! L'':!</text>
-  <text class="face f10" x="28" y="248" xml:space="preserve">           j  lp;,.  ,/ @@   ,;\nmy &quot; ,~</text>
-  <text class="face f11" x="28" y="267" xml:space="preserve">           i r @@@@mmHM @@@@ `^****M*,p ;,</text>
-  <text class="face f12" x="28" y="286" xml:space="preserve">           | ]@@@@HHH]g@M%%%%H,jmgpmb% `j</text>
-  <text class="face f13" x="28" y="305" xml:space="preserve">           ;%%%%%k%@[,.n|;,j%%k|%k%%`,[</text>
-  <text class="face f14" x="28" y="324" xml:space="preserve">            H|%%k%%%j%k||,;;j;!!`|%ij}]@</text>
-  <text class="face f15" x="28" y="343" xml:space="preserve">            &quot;djjmkL,&quot;]][,,,,wwxw,|#kjk`</text>
-  <text class="face f16" x="28" y="362" xml:space="preserve">              %;%km%%%%M|%%jkkii||||[</text>
-  <text class="face f17" x="28" y="381" xml:space="preserve">               kjj%%kkkl|!|||||j||||&quot;</text>
-  <text class="face f18" x="28" y="400" xml:space="preserve">                |jm%H@@b%%kkmk%i!|,[</text>
-  <text class="face f19" x="28" y="419" xml:space="preserve">                 @p|j%%%%jkk|||j*`;j[</text>
-  <text class="face f20" x="28" y="438" xml:space="preserve">                  ]@@@g|'''''''  `,;j%k</text>
-  <text class="face f21" x="28" y="457" xml:space="preserve">               @@@@mgmp,,,,;jjj%%k%</text>
-  <text class="face f22" x="28" y="476" xml:space="preserve">              @@@@@@@%%kgki|jjjjj%k%@</text>
-  <text class="face f23" x="28" y="495" xml:space="preserve">           . ^['' %@@@H#%k{illjkjj%%%  `,</text>
-  <text class="face f24" x="28" y="514" xml:space="preserve">          =[' `  . %H#%%%%H@gkilljjj%kk%&quot;</text>
-  <text class="face f25" x="28" y="533" xml:space="preserve">         ;%kk%%@@@@Hg@@@@@@@@H@@@@%%kk%;</text>
-  <text class="face f26" x="28" y="552" xml:space="preserve">        ;%%k%%@@@@@@@@@%%@@@@@@@@@@%%k%%;</text>
-  <text class="face f27" x="28" y="571" xml:space="preserve">       ,%%k%@@@@@@@@@%%%%@@@@@@@@@@@@%k%%,</text>
-  <text class="face f28" x="28" y="590" xml:space="preserve">      ;%%k%@@@@@@@@@@%%%%@@@@@@@@@@@@%%k%%;</text>
+  <!-- ========== ASCII PORTRAIT ========== -->
+  <text class="face f0"  x="28" y="58"  xml:space="preserve">            ,gNNW@@@@@@@@WNNg,</text>
+  <text class="face f1"  x="28" y="77"  xml:space="preserve">         ,gW@@@@@@@@@@@@@@@@@@WNg,</text>
+  <text class="face f2"  x="28" y="96"  xml:space="preserve">       ,gW@@@@@@@@@@@@@@@@@@@@@@@@Wg</text>
+  <text class="face f3"  x="28" y="115" xml:space="preserve">      gW@@@@@@W%NNgggggggNN%W@@@@@@Wg</text>
+  <text class="face f4"  x="28" y="134" xml:space="preserve">     g@@@@@W%;,.            .,;%W@@@@@g</text>
+  <text class="face f5"  x="28" y="153" xml:space="preserve">    ,@@@@W;.                    .;W@@@@,</text>
+  <text class="face f6"  x="28" y="172" xml:space="preserve">    g@@@+.    ,;+%WW%+;.          .+@@@g</text>
+  <text class="face f7"  x="28" y="191" xml:space="preserve">    W@@;    .+%W@@@@@@W%+.          ;@@W</text>
+  <text class="face f8"  x="28" y="210" xml:space="preserve">    N@@.   ;W@@W%+;;+%W@@W;          .@@N</text>
+  <text class="face f9"  x="28" y="229" xml:space="preserve">    N@%   ,@@W+,      ,+W@@,  ,+W@+,  %@N</text>
+  <text class="face f10" x="28" y="248" xml:space="preserve">    W@%   ;@@%   .@@.   %@@;  %@@@@%  %@W</text>
+  <text class="face f11" x="28" y="267" xml:space="preserve">    W@%   ,@@W+,      ,+W@@,  ,+W@+,  %@W</text>
+  <text class="face f12" x="28" y="286" xml:space="preserve">    N@@.   ;W@@W%+;;+%W@@W;          .@@N</text>
+  <text class="face f13" x="28" y="305" xml:space="preserve">    N@@;    .+%W@@@@@@W%+. ,@@@@, .  ;@@N</text>
+  <text class="face f14" x="28" y="324" xml:space="preserve">    W@@+.     .,;+%%+;,.   .%@@%.   .+@@W</text>
+  <text class="face f15" x="28" y="343" xml:space="preserve">    g@@@;                    ,,    ;@@@g</text>
+  <text class="face f16" x="28" y="362" xml:space="preserve">    ,@@@@+,    ,+%WNNNNNW%+,    ,+@@@@,</text>
+  <text class="face f17" x="28" y="381" xml:space="preserve">     g@@@@@+  .%W@@@@@@@@@@W%.  +@@@@@g</text>
+  <text class="face f18" x="28" y="400" xml:space="preserve">      W@@@@@@+  ''+NW@@WN+''  +@@@@@@W</text>
+  <text class="face f19" x="28" y="419" xml:space="preserve">       %@@@@@@@%;,. ,;;, .,;%@@@@@@@%</text>
+  <text class="face f20" x="28" y="438" xml:space="preserve">        +W@@@@@@@@@WNNNW@@@@@@@@@W+</text>
+  <text class="face f21" x="28" y="457" xml:space="preserve">          ;%W@@@@@@@@@@@@@@@@@@W%;</text>
+  <text class="face f22" x="28" y="476" xml:space="preserve">             ,;+%NWWWWWWN%+;,</text>
+  <text class="face f23" x="28" y="495" xml:space="preserve">         ,gNW@@@@@@WNNW@@@@@@WNg,</text>
+  <text class="face f24" x="28" y="514" xml:space="preserve">       ,gW@@@@@@@W%;,  ,;%W@@@@@@@Wg,</text>
+  <text class="face f25" x="28" y="533" xml:space="preserve">      gW@@@@@@W%;,        ,;%W@@@@@@Wg</text>
+  <text class="face f26" x="28" y="552" xml:space="preserve">     gW@@@@W%;.              .;%W@@@@Wg</text>
+  <text class="face f27" x="28" y="571" xml:space="preserve">     W@@@@@;                    ;@@@@@W</text>
+  <text class="face f28" x="28" y="590" xml:space="preserve">     W@@@@@@W%+;:,,......,,;:+%W@@@@@@W</text>
 
   <!-- ========== INFO PANEL ========== -->
 
