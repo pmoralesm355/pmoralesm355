@@ -18,36 +18,10 @@
 
 </div>
 
-<!-- ASCII ART PORTRAIT + INFO PANEL -->
-```
-
-       ,,ggg@@@@@@Nw,,              pablo@morales ─────────────────────────────────
-      ,M*|` ||*%gNM=]mM%g||%N,
-     p!'`  '! |'`  '''||jhlj%w        OS: ................... Guatemala, Cloud-native
-    ,@L `    ,,    ''!`|j%M]%M         Uptime: .............. 4+ years engineering
-    ]j'`  .,wp@pw,    ''''|%Wg         Host: ................ Olive Tech GT
-   /{|]|]@@@@@@@@pp.       |||||       Kernel: .............. Systems Engineering
-  `~ ']@@@@@@@@@@@@p    ''''  `        IDE: ................. VSCode, IntelliJ IDEA
-   , :]%%@@@@%%%%%k%h '*||mkr   *
-   ' j%M`    |jkk'  ~nrn=|i   ,`      Languages.Code: ...... TypeScript, JavaScript,
-   !  jrr*^`        `"! L'':!                                Python, Java, C++, SQL
-   j  lp;,.  ,/ @@   ,;\nmy " ,~      Languages.Human: ..... English, Spanish
-   i r @@@@mmHM @@@@ `^****M*,p ;,
-   | ]@@@@HHH]g@M%%%%H,jmgpmb% `j     Frameworks: .......... React, Next.js, Angular,
-   ;%%%%%k%@[,.n|;,j%%k|%k%%`,[                              Node.js, Express
-    H|%%k%%%j%k||,;;j;!!`|%ij}]@
-    "djjmkL,"]][,,,,wwxw,|#kjk`        Cloud: ............... GCP, Docker, CI/CD
-      %;%km%%%%M|%%jkkii||||[          AI/ML: ............... TensorFlow, Python
-       kjj%%kkkl|!|||||j||||"          Security: ............ Threat Modeling,
-        |jm%H@@b%%kkmk%i!|,[                                 Vulnerability Assessment,
-         @p|j%%%%jkk|||j*`;j[                                 Secure Architecture
-          ]@@@g|'''''''  `,;j%k
-       @@@@mgmp,,,,;jjj%%k%            Currently: ........... Master's in Cybersecurity
-      @@@@@@@%%kgki|jjjjj%k%@          Focus: ............... API Architecture +
-   . ^['' %@@@H#%k{illjkjj%%%  `,                             Cloud Integrations
-  =[' `  . %H#%%%%H@gkilljjj%kk%"
-                                        Portfolio: ........... pmorales.vercel.app
-```
+<!-- NEOFETCH PANEL - Colored SVG with animated fade-in -->
+<div align="center">
+<img src="./neofetch.svg" alt="neofetch" width="850" />
+</div>
 
 ---
 
