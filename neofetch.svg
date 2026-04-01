@@ -1,23 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="570" viewBox="0 0 860 570">
+<svg xmlns="http://www.w3.org/2000/svg" width="930" height="620" viewBox="0 0 930 620">
   <defs>
     <style>
-      /* NO @import — GitHub strips external fonts. Using system monospace only. */
       text { font-family: 'Courier New', Courier, 'Liberation Mono', 'Lucida Console', monospace; }
 
       .bg { fill: #0d1117; }
       .border { fill: none; stroke: #393E46; stroke-width: 1.5; }
-      .face { fill: #DFD0B8; font-size: 11px; white-space: pre; }
-      .label { fill: #DFD0B8; font-size: 12px; font-weight: bold; }
-      .dots { fill: #4A5568; font-size: 12px; }
-      .sep { fill: #393E46; font-size: 12px; }
-      .v-cyan { fill: #56D4DD; font-size: 12px; }
-      .v-green { fill: #9FEF00; font-size: 12px; }
-      .v-yellow { fill: #E8D44D; font-size: 12px; }
-      .v-orange { fill: #FF9900; font-size: 12px; }
-      .v-purple { fill: #BD93F9; font-size: 12px; }
-      .v-pink { fill: #FF79C6; font-size: 12px; }
-      .v-red { fill: #FF5555; font-size: 12px; }
-      .title { fill: #948979; font-size: 11px; }
+      .face { fill: #DFD0B8; font-size: 12.5px; white-space: pre; }
+      .label { fill: #DFD0B8; font-size: 13px; font-weight: bold; }
+      .dots { fill: #4A5568; font-size: 13px; }
+      .sep { fill: #393E46; font-size: 13px; }
+      .v-cyan { fill: #56D4DD; font-size: 13px; }
+      .v-green { fill: #9FEF00; font-size: 13px; }
+      .v-yellow { fill: #E8D44D; font-size: 13px; }
+      .v-orange { fill: #FF9900; font-size: 13px; }
+      .v-purple { fill: #BD93F9; font-size: 13px; }
+      .v-pink { fill: #FF79C6; font-size: 13px; }
+      .v-red { fill: #FF5555; font-size: 13px; }
+      .title { fill: #948979; font-size: 12px; }
 
       @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
       .cursor { animation: blink 1s step-end infinite; fill: #DFD0B8; }
@@ -56,111 +55,94 @@
   </defs>
 
   <!-- Background -->
-  <rect class="bg" width="860" height="570" rx="12"/>
-  <rect class="border" x=".5" y=".5" width="859" height="569" rx="12"/>
+  <rect class="bg" width="930" height="620" rx="12"/>
+  <rect class="border" x=".5" y=".5" width="929" height="619" rx="12"/>
 
-  <!-- Terminal window buttons -->
-  <circle cx="24" cy="20" r="6" fill="#FF5F56"/>
-  <circle cx="44" cy="20" r="6" fill="#FFBD2E"/>
-  <circle cx="64" cy="20" r="6" fill="#27C93F"/>
-  <text class="title" x="430" y="24" text-anchor="middle">pablo@morales: ~ neofetch</text>
+  <!-- Terminal buttons -->
+  <circle cx="26" cy="22" r="7" fill="#FF5F56"/>
+  <circle cx="48" cy="22" r="7" fill="#FFBD2E"/>
+  <circle cx="70" cy="22" r="7" fill="#27C93F"/>
+  <text class="title" x="465" y="26" text-anchor="middle">pablo@morales: ~ neofetch</text>
 
-  <!-- ========== ASCII FACE — ORIGINAL CHARACTERS ========== -->
-  <text class="face f0"  x="24" y="56" xml:space="preserve">       ,,ggg@@@@@@Nw,,</text>
-  <text class="face f1"  x="24" y="69" xml:space="preserve">      ,M*|` ||*%gNM=]mM%g||%N,</text>
-  <text class="face f2"  x="24" y="82" xml:space="preserve">     p!'`  '! |'`  '''||jhlj%w</text>
-  <text class="face f3"  x="24" y="95" xml:space="preserve">    ,@L `    ,,    ''!`|j%M]%M</text>
-  <text class="face f4"  x="24" y="108" xml:space="preserve">    ]j'`  .,wp@pw,    ''''|%Wg</text>
-  <text class="face f5"  x="24" y="121" xml:space="preserve">   /{|]|]@@@@@@@@pp.       |||||</text>
-  <text class="face f6"  x="24" y="134" xml:space="preserve">  `~ ']@@@@@@@@@@@@p    ''''  `</text>
-  <text class="face f7"  x="24" y="147" xml:space="preserve">   , :]%%@@@@%%%%%k%h '*||mkr   *</text>
-  <text class="face f8"  x="24" y="160" xml:space="preserve">   ' j%M`    |jkk'  ~nrn=|i   ,`</text>
-  <text class="face f9"  x="24" y="173" xml:space="preserve">   !  jrr*^`        `&quot;! L'':!</text>
-  <text class="face f10" x="24" y="186" xml:space="preserve">   j  lp;,.  ,/ @@   ,;\nmy &quot; ,~</text>
-  <text class="face f11" x="24" y="199" xml:space="preserve">   i r @@@@mmHM @@@@ `^****M*,p ;,</text>
-  <text class="face f12" x="24" y="212" xml:space="preserve">   | ]@@@@HHH]g@M%%%%H,jmgpmb% `j</text>
-  <text class="face f13" x="24" y="225" xml:space="preserve">   ;%%%%%k%@[,.n|;,j%%k|%k%%`,[</text>
-  <text class="face f14" x="24" y="238" xml:space="preserve">    H|%%k%%%j%k||,;;j;!!`|%ij}]@</text>
-  <text class="face f15" x="24" y="251" xml:space="preserve">    &quot;djjmkL,&quot;]][,,,,wwxw,|#kjk`</text>
-  <text class="face f16" x="24" y="264" xml:space="preserve">      %;%km%%%%M|%%jkkii||||[</text>
-  <text class="face f17" x="24" y="277" xml:space="preserve">       kjj%%kkkl|!|||||j||||&quot;</text>
-  <text class="face f18" x="24" y="290" xml:space="preserve">        |jm%H@@b%%kkmk%i!|,[</text>
-  <text class="face f19" x="24" y="303" xml:space="preserve">         @p|j%%%%jkk|||j*`;j[</text>
-  <text class="face f20" x="24" y="316" xml:space="preserve">          ]@@@g|'''''''  `,;j%k</text>
-  <text class="face f21" x="24" y="329" xml:space="preserve">       @@@@mgmp,,,,;jjj%%k%</text>
-  <text class="face f22" x="24" y="342" xml:space="preserve">      @@@@@@@%%kgki|jjjjj%k%@</text>
-  <text class="face f23" x="24" y="355" xml:space="preserve">   . ^['' %@@@H#%k{illjkjj%%%  `,</text>
-  <text class="face f24" x="24" y="368" xml:space="preserve">  =[' `  . %H#%%%%H@gkilljjj%kk%&quot;</text>
+  <!-- ========== ASCII FACE — centered at x=60 ========== -->
+  <text class="face f0"  x="60" y="64" xml:space="preserve">       ,,ggg@@@@@@Nw,,</text>
+  <text class="face f1"  x="60" y="79" xml:space="preserve">      ,M*|` ||*%gNM=]mM%g||%N,</text>
+  <text class="face f2"  x="60" y="94" xml:space="preserve">     p!'`  '! |'`  '''||jhlj%w</text>
+  <text class="face f3"  x="60" y="109" xml:space="preserve">    ,@L `    ,,    ''!`|j%M]%M</text>
+  <text class="face f4"  x="60" y="124" xml:space="preserve">    ]j'`  .,wp@pw,    ''''|%Wg</text>
+  <text class="face f5"  x="60" y="139" xml:space="preserve">   /{|]|]@@@@@@@@pp.       |||||</text>
+  <text class="face f6"  x="60" y="154" xml:space="preserve">  `~ ']@@@@@@@@@@@@p    ''''  `</text>
+  <text class="face f7"  x="60" y="169" xml:space="preserve">   , :]%%@@@@%%%%%k%h '*||mkr   *</text>
+  <text class="face f8"  x="60" y="184" xml:space="preserve">   ' j%M`    |jkk'  ~nrn=|i   ,`</text>
+  <text class="face f9"  x="60" y="199" xml:space="preserve">   !  jrr*^`        `&quot;! L'':!</text>
+  <text class="face f10" x="60" y="214" xml:space="preserve">   j  lp;,.  ,/ @@   ,;\nmy &quot; ,~</text>
+  <text class="face f11" x="60" y="229" xml:space="preserve">   i r @@@@mmHM @@@@ `^****M*,p ;,</text>
+  <text class="face f12" x="60" y="244" xml:space="preserve">   | ]@@@@HHH]g@M%%%%H,jmgpmb% `j</text>
+  <text class="face f13" x="60" y="259" xml:space="preserve">   ;%%%%%k%@[,.n|;,j%%k|%k%%`,[</text>
+  <text class="face f14" x="60" y="274" xml:space="preserve">    H|%%k%%%j%k||,;;j;!!`|%ij}]@</text>
+  <text class="face f15" x="60" y="289" xml:space="preserve">    &quot;djjmkL,&quot;]][,,,,wwxw,|#kjk`</text>
+  <text class="face f16" x="60" y="304" xml:space="preserve">      %;%km%%%%M|%%jkkii||||[</text>
+  <text class="face f17" x="60" y="319" xml:space="preserve">       kjj%%kkkl|!|||||j||||&quot;</text>
+  <text class="face f18" x="60" y="334" xml:space="preserve">        |jm%H@@b%%kkmk%i!|,[</text>
+  <text class="face f19" x="60" y="349" xml:space="preserve">         @p|j%%%%jkk|||j*`;j[</text>
+  <text class="face f20" x="60" y="364" xml:space="preserve">          ]@@@g|'''''''  `,;j%k</text>
+  <text class="face f21" x="60" y="379" xml:space="preserve">       @@@@mgmp,,,,;jjj%%k%</text>
+  <text class="face f22" x="60" y="394" xml:space="preserve">      @@@@@@@%%kgki|jjjjj%k%@</text>
+  <text class="face f23" x="60" y="409" xml:space="preserve">   . ^['' %@@@H#%k{illjkjj%%%  `,</text>
+  <text class="face f24" x="60" y="424" xml:space="preserve">  =[' `  . %H#%%%%H@gkilljjj%kk%&quot;</text>
 
   <!-- ========== INFO PANEL ========== -->
 
-  <!-- Header -->
-  <text class="i0" x="440" y="58"><tspan class="v-cyan">pablo</tspan><tspan class="dots">@</tspan><tspan class="v-purple">morales</tspan></text>
-  <text class="sep i0" x="440" y="73">──────────────────────────────────────</text>
+  <text class="i0" x="480" y="66"><tspan class="v-cyan">pablo</tspan><tspan class="dots">@</tspan><tspan class="v-purple">morales</tspan></text>
+  <text class="sep i0" x="480" y="83">──────────────────────────────────────</text>
 
-  <!-- OS -->
-  <text class="i1" x="440" y="96"><tspan class="label">OS</tspan><tspan class="dots"> ................... </tspan><tspan class="v-cyan">Guatemala, Cloud-native</tspan></text>
+  <text class="i1" x="480" y="110"><tspan class="label">OS</tspan><tspan class="dots"> ................... </tspan><tspan class="v-cyan">Guatemala, Cloud-native</tspan></text>
 
-  <!-- Uptime -->
-  <text class="i2" x="440" y="116"><tspan class="label">Uptime</tspan><tspan class="dots"> .............. </tspan><tspan class="v-green">4+ years engineering</tspan></text>
+  <text class="i2" x="480" y="133"><tspan class="label">Uptime</tspan><tspan class="dots"> .............. </tspan><tspan class="v-green">4+ years engineering</tspan></text>
 
-  <!-- Host -->
-  <text class="i3" x="440" y="136"><tspan class="label">Host</tspan><tspan class="dots"> ................ </tspan><tspan class="v-yellow">Olive Tech GT</tspan></text>
+  <text class="i3" x="480" y="156"><tspan class="label">Host</tspan><tspan class="dots"> ................ </tspan><tspan class="v-yellow">Olive Tech GT</tspan></text>
 
-  <!-- Kernel -->
-  <text class="i4" x="440" y="156"><tspan class="label">Kernel</tspan><tspan class="dots"> .............. </tspan><tspan class="v-orange">Systems Engineering</tspan></text>
+  <text class="i4" x="480" y="179"><tspan class="label">Kernel</tspan><tspan class="dots"> .............. </tspan><tspan class="v-orange">Systems Engineering</tspan></text>
 
-  <!-- IDE -->
-  <text class="i5" x="440" y="176"><tspan class="label">IDE</tspan><tspan class="dots"> ................. </tspan><tspan class="v-purple">VSCode, IntelliJ IDEA</tspan></text>
+  <text class="i5" x="480" y="202"><tspan class="label">IDE</tspan><tspan class="dots"> ................. </tspan><tspan class="v-purple">VSCode, IntelliJ IDEA</tspan></text>
 
-  <!-- Separator -->
-  <text class="sep i5" x="440" y="198">──────────────────────────────────────</text>
+  <text class="sep i5" x="480" y="225">──────────────────────────────────────</text>
 
-  <!-- Languages.Code -->
-  <text class="i6" x="440" y="222"><tspan class="label">Languages.Code</tspan><tspan class="dots"> ...... </tspan><tspan class="v-cyan">TypeScript, JavaScript,</tspan></text>
-  <text class="i6" x="440" y="237"><tspan class="dots">                        </tspan><tspan class="v-cyan">Python, Java, C++, SQL</tspan></text>
+  <text class="i6" x="480" y="252"><tspan class="label">Languages.Code</tspan><tspan class="dots"> ...... </tspan><tspan class="v-cyan">TypeScript, JavaScript,</tspan></text>
+  <text class="i6" x="480" y="269"><tspan class="dots">                        </tspan><tspan class="v-cyan">Python, Java, C++, SQL</tspan></text>
 
-  <!-- Languages.Human -->
-  <text class="i7" x="440" y="260"><tspan class="label">Languages.Human</tspan><tspan class="dots"> ..... </tspan><tspan class="v-green">English, Spanish</tspan></text>
+  <text class="i7" x="480" y="295"><tspan class="label">Languages.Human</tspan><tspan class="dots"> ..... </tspan><tspan class="v-green">English, Spanish</tspan></text>
 
-  <!-- Frameworks -->
-  <text class="i8" x="440" y="283"><tspan class="label">Frameworks</tspan><tspan class="dots"> .......... </tspan><tspan class="v-yellow">React, Next.js, Angular,</tspan></text>
-  <text class="i8" x="440" y="298"><tspan class="dots">                        </tspan><tspan class="v-yellow">Node.js, Express</tspan></text>
+  <text class="i8" x="480" y="321"><tspan class="label">Frameworks</tspan><tspan class="dots"> .......... </tspan><tspan class="v-yellow">React, Next.js, Angular,</tspan></text>
+  <text class="i8" x="480" y="338"><tspan class="dots">                        </tspan><tspan class="v-yellow">Node.js, Express</tspan></text>
 
-  <!-- Cloud -->
-  <text class="i9" x="440" y="321"><tspan class="label">Cloud</tspan><tspan class="dots"> ............... </tspan><tspan class="v-orange">GCP, Docker, CI/CD</tspan></text>
+  <text class="i9" x="480" y="364"><tspan class="label">Cloud</tspan><tspan class="dots"> ............... </tspan><tspan class="v-orange">GCP, Docker, CI/CD</tspan></text>
 
-  <!-- AI/ML -->
-  <text class="i10" x="440" y="344"><tspan class="label">AI/ML</tspan><tspan class="dots"> ............... </tspan><tspan class="v-purple">TensorFlow, Python</tspan></text>
+  <text class="i10" x="480" y="390"><tspan class="label">AI/ML</tspan><tspan class="dots"> ............... </tspan><tspan class="v-purple">TensorFlow, Python</tspan></text>
 
-  <!-- Security -->
-  <text class="i11" x="440" y="367"><tspan class="label">Security</tspan><tspan class="dots"> ............ </tspan><tspan class="v-red">Threat Modeling,</tspan></text>
-  <text class="i11" x="440" y="382"><tspan class="dots">                        </tspan><tspan class="v-red">Vulnerability Assessment,</tspan></text>
-  <text class="i11" x="440" y="397"><tspan class="dots">                        </tspan><tspan class="v-red">Secure Architecture</tspan></text>
+  <text class="i11" x="480" y="416"><tspan class="label">Security</tspan><tspan class="dots"> ............ </tspan><tspan class="v-red">Threat Modeling,</tspan></text>
+  <text class="i11" x="480" y="433"><tspan class="dots">                        </tspan><tspan class="v-red">Vulnerability Assessment,</tspan></text>
+  <text class="i11" x="480" y="450"><tspan class="dots">                        </tspan><tspan class="v-red">Secure Architecture</tspan></text>
 
-  <!-- Separator -->
-  <text class="sep i12" x="440" y="420">──────────────────────────────────────</text>
+  <text class="sep i12" x="480" y="475">──────────────────────────────────────</text>
 
-  <!-- Currently -->
-  <text class="i12" x="440" y="443"><tspan class="label">Currently</tspan><tspan class="dots"> ........... </tspan><tspan class="v-pink">Master's in Cybersecurity</tspan></text>
+  <text class="i12" x="480" y="500"><tspan class="label">Currently</tspan><tspan class="dots"> ........... </tspan><tspan class="v-pink">Master's in Cybersecurity</tspan></text>
 
-  <!-- Focus -->
-  <text class="i13" x="440" y="468"><tspan class="label">Focus</tspan><tspan class="dots"> ............... </tspan><tspan class="v-cyan">API Architecture +</tspan></text>
-  <text class="i13" x="440" y="483"><tspan class="dots">                        </tspan><tspan class="v-cyan">Cloud Integrations</tspan></text>
+  <text class="i13" x="480" y="526"><tspan class="label">Focus</tspan><tspan class="dots"> ............... </tspan><tspan class="v-cyan">API Architecture +</tspan></text>
+  <text class="i13" x="480" y="543"><tspan class="dots">                        </tspan><tspan class="v-cyan">Cloud Integrations</tspan></text>
 
-  <!-- Portfolio -->
-  <text class="i13" x="440" y="508"><tspan class="label">Portfolio</tspan><tspan class="dots"> ........... </tspan><tspan class="v-green">pmorales.vercel.app</tspan></text>
+  <text class="i13" x="480" y="569"><tspan class="label">Portfolio</tspan><tspan class="dots"> ........... </tspan><tspan class="v-green">pmorales.vercel.app</tspan></text>
 
   <!-- Color palette -->
-  <rect class="c0" x="440" y="525" width="32" height="14" rx="2" fill="#222831"/>
-  <rect class="c1" x="477" y="525" width="32" height="14" rx="2" fill="#393E46"/>
-  <rect class="c2" x="514" y="525" width="32" height="14" rx="2" fill="#948979"/>
-  <rect class="c3" x="551" y="525" width="32" height="14" rx="2" fill="#DFD0B8"/>
-  <rect class="c4" x="588" y="525" width="32" height="14" rx="2" fill="#56D4DD"/>
-  <rect class="c5" x="625" y="525" width="32" height="14" rx="2" fill="#9FEF00"/>
-  <rect class="c6" x="662" y="525" width="32" height="14" rx="2" fill="#FF9900"/>
-  <rect class="c7" x="699" y="525" width="32" height="14" rx="2" fill="#BD93F9"/>
+  <rect class="c0" x="480" y="585" width="34" height="15" rx="2" fill="#222831"/>
+  <rect class="c1" x="519" y="585" width="34" height="15" rx="2" fill="#393E46"/>
+  <rect class="c2" x="558" y="585" width="34" height="15" rx="2" fill="#948979"/>
+  <rect class="c3" x="597" y="585" width="34" height="15" rx="2" fill="#DFD0B8"/>
+  <rect class="c4" x="636" y="585" width="34" height="15" rx="2" fill="#56D4DD"/>
+  <rect class="c5" x="675" y="585" width="34" height="15" rx="2" fill="#9FEF00"/>
+  <rect class="c6" x="714" y="585" width="34" height="15" rx="2" fill="#FF9900"/>
+  <rect class="c7" x="753" y="585" width="34" height="15" rx="2" fill="#BD93F9"/>
 
   <!-- Blinking cursor -->
-  <rect class="cursor" x="638" y="498" width="8" height="13" rx="1"/>
+  <rect class="cursor" x="690" y="558" width="9" height="14" rx="1"/>
 </svg>

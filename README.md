@@ -19,7 +19,7 @@
 
 <!-- NEOFETCH SVG -->
 <div align="center">
-<img src="./neofetch.svg" alt="neofetch" width="860" />
+<img src="./neofetch.svg" alt="neofetch" width="930" />
 </div>
 
 ---
@@ -156,19 +156,6 @@ class Pablo:
 ---
 
 <div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                            ║
-║   "I engineer modern, reliable platforms that connect products, data,      ║
-║    and processes through clean architecture, robust APIs, and high-impact   ║
-║    cloud integrations — with a security-first mindset sharpened by a       ║
-║    Master's in Cybersecurity."                                             ║
-║                                                                            ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
-
-<br/>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=pmoralesm355&color=393E46&style=for-the-badge&label=PROFILE+VIEWS)
 
