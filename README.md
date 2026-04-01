@@ -3,31 +3,27 @@
 <!-- HEADER WAVE -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:222831,50:393E46,100:948979&height=200&section=header&text=Pablo%20Morales&fontSize=42&fontColor=DFD0B8&fontAlignY=35&desc=Full%20Stack%20Cloud%20Integration%20Engineer&descSize=16&descColor=948979&descAlignY=55&animation=fadeIn" />
 
-<!-- TYPING SVG -->
+<!-- TYPING SVG — using demolab (herokuapp is deprecated) -->
 <a href="https://pmorales.vercel.app/">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=22&duration=3500&pause=1000&color=DFD0B8&center=true&vCenter=true&repeat=true&width=700&height=80&lines=%F0%9F%91%8B+Hello%2C+I'm+Pablo+David+Morales+Martinez;%E2%9A%A1+Systems+Engineer+%7C+Full+Stack+Developer;%F0%9F%94%90+Cloud+%26+Cybersecurity+Specialist;%F0%9F%9A%80+Building+secure%2C+scalable+platforms+on+GCP" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=22&duration=3500&pause=1000&color=DFD0B8&center=true&vCenter=true&repeat=true&width=700&height=80&lines=%F0%9F%91%8B+Hello%2C+I'm+Pablo+David+Morales+Martinez;%E2%9A%A1+Systems+Engineer+%7C+Full+Stack+Developer;%F0%9F%94%90+Cloud+%26+Cybersecurity+Specialist;%F0%9F%9A%80+Building+secure%2C+scalable+platforms+on+GCP" alt="Typing SVG" />
 </a>
 
 <br/>
 
-<!-- SOCIAL BADGES -->
 [![Portfolio](https://img.shields.io/badge/Portfolio-222831?style=for-the-badge&logo=googlechrome&logoColor=DFD0B8)](https://pmorales.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-222831?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/pablo-david-morales-1a39bb255)
-[![Gmail](https://img.shields.io/badge/Email-222831?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:pablo.moralesm355@gmail.com)
+[![Email](https://img.shields.io/badge/Email-222831?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:pablo.moralesm355@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-222831?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pmoralesm355)
 
 </div>
 
-<!-- ══════════════════════ NEOFETCH SVG ══════════════════════ -->
+<!-- NEOFETCH SVG -->
 <div align="center">
-
 <img src="./neofetch.svg" alt="neofetch" width="860" />
-
 </div>
 
 ---
 
-<!-- ══════════════════════ ABOUT ══════════════════════ -->
 <div align="center">
 
 ### `>> whoami`
@@ -58,7 +54,6 @@ class Pablo:
 
 ---
 
-<!-- ══════════════════════ TECH STACK ══════════════════════ -->
 <div align="center">
 
 ### `>> cat tech_stack.yml`
@@ -99,7 +94,6 @@ class Pablo:
 
 ---
 
-<!-- ══════════════════════ CERTIFICATIONS ══════════════════════ -->
 <div align="center">
 
 ### `>> ls certifications/`
@@ -161,36 +155,6 @@ class Pablo:
 
 ---
 
-<!-- ══════════════════════ GITHUB STATS ══════════════════════ -->
-<div align="center">
-
-### `>> neofetch --stats`
-
-<br/>
-
-<a href="https://github.com/pmoralesm355">
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=pmoralesm355&show_icons=true&bg_color=222831&title_color=DFD0B8&text_color=948979&icon_color=DFD0B8&hide_border=true&count_private=true&ring_color=948979" />
-</a>
-&nbsp;
-<a href="https://github.com/pmoralesm355">
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmoralesm355&layout=compact&bg_color=222831&title_color=DFD0B8&text_color=948979&hide_border=true&langs_count=8" />
-</a>
-
-<br/><br/>
-
-<a href="https://github.com/pmoralesm355">
-    <img src="https://streak-stats.demolab.com/?user=pmoralesm355&background=222831&ring=DFD0B8&fire=DFD0B8&currStreakLabel=DFD0B8&sideLabels=948979&currStreakNum=948979&sideNums=948979&dates=948979&stroke=393E46&hide_border=true" />
-</a>
-
-<br/><br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=pmoralesm355&bg_color=222831&color=948979&line=DFD0B8&point=DFD0B8&area_color=393E46&area=true&hide_border=true&custom_title=Contribution%20Graph" width="95%" />
-
-</div>
-
----
-
-<!-- ══════════════════════ FOOTER ══════════════════════ -->
 <div align="center">
 
 ```
