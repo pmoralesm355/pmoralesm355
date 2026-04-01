@@ -19,7 +19,7 @@
 
 <!-- NEOFETCH SVG -->
 <div align="center">
-<img src="./neofetch.svg" alt="neofetch" width="930" />
+<img src="./neofetch.svg" alt="neofetch" width="820" />
 </div>
 
 ---

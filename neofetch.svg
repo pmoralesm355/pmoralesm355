@@ -1,141 +1,87 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="930" height="620" viewBox="0 0 930 620">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="520" viewBox="0 0 820 520">
   <defs>
     <style>
       text { font-family: 'Courier New', Courier, 'Liberation Mono', 'Lucida Console', monospace; }
 
       .bg { fill: #0d1117; }
       .border { fill: none; stroke: #393E46; stroke-width: 1.5; }
-      .face { fill: #DFD0B8; font-size: 13.8px; white-space: pre; }
-      .label { fill: #DFD0B8; font-size: 13px; font-weight: bold; }
-      .dots { fill: #4A5568; font-size: 13px; }
-      .sep { fill: #393E46; font-size: 13px; }
-      .v-cyan { fill: #56D4DD; font-size: 13px; }
-      .v-green { fill: #9FEF00; font-size: 13px; }
-      .v-yellow { fill: #E8D44D; font-size: 13px; }
-      .v-orange { fill: #FF9900; font-size: 13px; }
-      .v-purple { fill: #BD93F9; font-size: 13px; }
-      .v-pink { fill: #FF79C6; font-size: 13px; }
-      .v-red { fill: #FF5555; font-size: 13px; }
-      .title { fill: #948979; font-size: 12px; }
+      .label { fill: #DFD0B8; font-size: 14px; font-weight: bold; }
+      .dots { fill: #4A5568; font-size: 14px; }
+      .sep { fill: #393E46; font-size: 14px; }
+      .v-cyan { fill: #56D4DD; font-size: 14px; }
+      .v-green { fill: #9FEF00; font-size: 14px; }
+      .v-yellow { fill: #E8D44D; font-size: 14px; }
+      .v-orange { fill: #FF9900; font-size: 14px; }
+      .v-purple { fill: #BD93F9; font-size: 14px; }
+      .v-pink { fill: #FF79C6; font-size: 14px; }
+      .v-red { fill: #FF5555; font-size: 14px; }
+      .title { fill: #948979; font-size: 13px; }
 
       @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0} }
       .cursor { animation: blink 1s step-end infinite; fill: #DFD0B8; }
 
-      @keyframes slideL { from{opacity:0;transform:translateX(-12px)} to{opacity:1;transform:translateX(0)} }
       @keyframes slideR { from{opacity:0;transform:translateX(12px)} to{opacity:1;transform:translateX(0)} }
       @keyframes scaleIn { from{opacity:0;transform:scaleX(0)} to{opacity:1;transform:scaleX(1)} }
 
-      .f0{animation:slideL .4s ease .05s both} .f1{animation:slideL .4s ease .07s both}
-      .f2{animation:slideL .4s ease .09s both} .f3{animation:slideL .4s ease .11s both}
-      .f4{animation:slideL .4s ease .13s both} .f5{animation:slideL .4s ease .15s both}
-      .f6{animation:slideL .4s ease .17s both} .f7{animation:slideL .4s ease .19s both}
-      .f8{animation:slideL .4s ease .21s both} .f9{animation:slideL .4s ease .23s both}
-      .f10{animation:slideL .4s ease .25s both} .f11{animation:slideL .4s ease .27s both}
-      .f12{animation:slideL .4s ease .29s both} .f13{animation:slideL .4s ease .31s both}
-      .f14{animation:slideL .4s ease .33s both} .f15{animation:slideL .4s ease .35s both}
-      .f16{animation:slideL .4s ease .37s both} .f17{animation:slideL .4s ease .39s both}
-      .f18{animation:slideL .4s ease .41s both} .f19{animation:slideL .4s ease .43s both}
-      .f20{animation:slideL .4s ease .45s both} .f21{animation:slideL .4s ease .47s both}
-      .f22{animation:slideL .4s ease .49s both} .f23{animation:slideL .4s ease .51s both}
-      .f24{animation:slideL .4s ease .53s both} .f25{animation:slideL .4s ease .55s both}
-      .f26{animation:slideL .4s ease .57s both} .f27{animation:slideL .4s ease .59s both}
-      .f28{animation:slideL .4s ease .61s both} .f29{animation:slideL .4s ease .63s both}
+      .i0{animation:slideR .4s ease .1s both} .i1{animation:slideR .4s ease .2s both}
+      .i2{animation:slideR .4s ease .3s both} .i3{animation:slideR .4s ease .4s both}
+      .i4{animation:slideR .4s ease .5s both} .i5{animation:slideR .4s ease .6s both}
+      .i6{animation:slideR .4s ease .7s both} .i7{animation:slideR .4s ease .8s both}
+      .i8{animation:slideR .4s ease .9s both} .i9{animation:slideR .4s ease 1.0s both}
+      .i10{animation:slideR .4s ease 1.1s both} .i11{animation:slideR .4s ease 1.2s both}
+      .i12{animation:slideR .4s ease 1.3s both} .i13{animation:slideR .4s ease 1.4s both}
 
-      .i0{animation:slideR .4s ease .2s both} .i1{animation:slideR .4s ease .3s both}
-      .i2{animation:slideR .4s ease .4s both} .i3{animation:slideR .4s ease .5s both}
-      .i4{animation:slideR .4s ease .6s both} .i5{animation:slideR .4s ease .7s both}
-      .i6{animation:slideR .4s ease .8s both} .i7{animation:slideR .4s ease .9s both}
-      .i8{animation:slideR .4s ease 1.0s both} .i9{animation:slideR .4s ease 1.1s both}
-      .i10{animation:slideR .4s ease 1.2s both} .i11{animation:slideR .4s ease 1.3s both}
-      .i12{animation:slideR .4s ease 1.4s both} .i13{animation:slideR .4s ease 1.5s both}
-
-      .c0{animation:scaleIn .25s ease 1.5s both} .c1{animation:scaleIn .25s ease 1.55s both}
-      .c2{animation:scaleIn .25s ease 1.6s both} .c3{animation:scaleIn .25s ease 1.65s both}
-      .c4{animation:scaleIn .25s ease 1.7s both} .c5{animation:scaleIn .25s ease 1.75s both}
-      .c6{animation:scaleIn .25s ease 1.8s both} .c7{animation:scaleIn .25s ease 1.85s both}
+      .c0{animation:scaleIn .25s ease 1.4s both} .c1{animation:scaleIn .25s ease 1.45s both}
+      .c2{animation:scaleIn .25s ease 1.5s both} .c3{animation:scaleIn .25s ease 1.55s both}
+      .c4{animation:scaleIn .25s ease 1.6s both} .c5{animation:scaleIn .25s ease 1.65s both}
+      .c6{animation:scaleIn .25s ease 1.7s both} .c7{animation:scaleIn .25s ease 1.75s both}
     </style>
   </defs>
 
-  <rect class="bg" width="930" height="620" rx="12"/>
-  <rect class="border" x=".5" y=".5" width="929" height="619" rx="12"/>
+  <rect class="bg" width="820" height="520" rx="12"/>
+  <rect class="border" x=".5" y=".5" width="819" height="519" rx="12"/>
 
+  <!-- Terminal buttons -->
   <circle cx="26" cy="22" r="7" fill="#FF5F56"/>
   <circle cx="48" cy="22" r="7" fill="#FFBD2E"/>
   <circle cx="70" cy="22" r="7" fill="#27C93F"/>
-  <text class="title" x="465" y="26" text-anchor="middle">pablo@morales: ~ neofetch</text>
+  <text class="title" x="410" y="26" text-anchor="middle">pablo@morales: ~ neofetch</text>
 
-  <!-- ========== ASCII PORTRAIT ========== -->
-  <text class="face f0"  x="28" y="58"  xml:space="preserve">            ,gNNW@@@@@@@@WNNg,</text>
-  <text class="face f1"  x="28" y="77"  xml:space="preserve">         ,gW@@@@@@@@@@@@@@@@@@WNg,</text>
-  <text class="face f2"  x="28" y="96"  xml:space="preserve">       ,gW@@@@@@@@@@@@@@@@@@@@@@@@Wg</text>
-  <text class="face f3"  x="28" y="115" xml:space="preserve">      gW@@@@@@W%NNgggggggNN%W@@@@@@Wg</text>
-  <text class="face f4"  x="28" y="134" xml:space="preserve">     g@@@@@W%;,.            .,;%W@@@@@g</text>
-  <text class="face f5"  x="28" y="153" xml:space="preserve">    ,@@@@W;.                    .;W@@@@,</text>
-  <text class="face f6"  x="28" y="172" xml:space="preserve">    g@@@+.    ,;+%WW%+;.          .+@@@g</text>
-  <text class="face f7"  x="28" y="191" xml:space="preserve">    W@@;    .+%W@@@@@@W%+.          ;@@W</text>
-  <text class="face f8"  x="28" y="210" xml:space="preserve">    N@@.   ;W@@W%+;;+%W@@W;          .@@N</text>
-  <text class="face f9"  x="28" y="229" xml:space="preserve">    N@%   ,@@W+,      ,+W@@,  ,+W@+,  %@N</text>
-  <text class="face f10" x="28" y="248" xml:space="preserve">    W@%   ;@@%   .@@.   %@@;  %@@@@%  %@W</text>
-  <text class="face f11" x="28" y="267" xml:space="preserve">    W@%   ,@@W+,      ,+W@@,  ,+W@+,  %@W</text>
-  <text class="face f12" x="28" y="286" xml:space="preserve">    N@@.   ;W@@W%+;;+%W@@W;          .@@N</text>
-  <text class="face f13" x="28" y="305" xml:space="preserve">    N@@;    .+%W@@@@@@W%+. ,@@@@, .  ;@@N</text>
-  <text class="face f14" x="28" y="324" xml:space="preserve">    W@@+.     .,;+%%+;,.   .%@@%.   .+@@W</text>
-  <text class="face f15" x="28" y="343" xml:space="preserve">    g@@@;                    ,,    ;@@@g</text>
-  <text class="face f16" x="28" y="362" xml:space="preserve">    ,@@@@+,    ,+%WNNNNNW%+,    ,+@@@@,</text>
-  <text class="face f17" x="28" y="381" xml:space="preserve">     g@@@@@+  .%W@@@@@@@@@@W%.  +@@@@@g</text>
-  <text class="face f18" x="28" y="400" xml:space="preserve">      W@@@@@@+  ''+NW@@WN+''  +@@@@@@W</text>
-  <text class="face f19" x="28" y="419" xml:space="preserve">       %@@@@@@@%;,. ,;;, .,;%@@@@@@@%</text>
-  <text class="face f20" x="28" y="438" xml:space="preserve">        +W@@@@@@@@@WNNNW@@@@@@@@@W+</text>
-  <text class="face f21" x="28" y="457" xml:space="preserve">          ;%W@@@@@@@@@@@@@@@@@@W%;</text>
-  <text class="face f22" x="28" y="476" xml:space="preserve">             ,;+%NWWWWWWN%+;,</text>
-  <text class="face f23" x="28" y="495" xml:space="preserve">         ,gNW@@@@@@WNNW@@@@@@WNg,</text>
-  <text class="face f24" x="28" y="514" xml:space="preserve">       ,gW@@@@@@@W%;,  ,;%W@@@@@@@Wg,</text>
-  <text class="face f25" x="28" y="533" xml:space="preserve">      gW@@@@@@W%;,        ,;%W@@@@@@Wg</text>
-  <text class="face f26" x="28" y="552" xml:space="preserve">     gW@@@@W%;.              .;%W@@@@Wg</text>
-  <text class="face f27" x="28" y="571" xml:space="preserve">     W@@@@@;                    ;@@@@@W</text>
-  <text class="face f28" x="28" y="590" xml:space="preserve">     W@@@@@@W%+;:,,......,,;:+%W@@@@@@W</text>
+  <!-- ========== INFO PANEL — centered ========== -->
 
-  <!-- ========== INFO PANEL ========== -->
+  <text class="i0" x="40" y="65"><tspan class="v-cyan">pablo</tspan><tspan class="dots">@</tspan><tspan class="v-purple">morales</tspan></text>
+  <text class="sep i0" x="40" y="82">────────────────────────────────────────────────────────────────────────────</text>
 
-  <text class="i0" x="480" y="66"><tspan class="v-cyan">pablo</tspan><tspan class="dots">@</tspan><tspan class="v-purple">morales</tspan></text>
-  <text class="sep i0" x="480" y="83">──────────────────────────────────────</text>
+  <text class="i1" x="40" y="112"><tspan class="label">OS</tspan><tspan class="dots"> ......................... </tspan><tspan class="v-cyan">Guatemala, Cloud-native</tspan></text>
+  <text class="i2" x="40" y="140"><tspan class="label">Uptime</tspan><tspan class="dots"> ..................... </tspan><tspan class="v-green">4+ years engineering</tspan></text>
+  <text class="i3" x="40" y="168"><tspan class="label">Host</tspan><tspan class="dots"> ....................... </tspan><tspan class="v-yellow">Olive Tech GT</tspan></text>
+  <text class="i4" x="40" y="196"><tspan class="label">Kernel</tspan><tspan class="dots"> ..................... </tspan><tspan class="v-orange">Systems Engineering</tspan></text>
+  <text class="i5" x="40" y="224"><tspan class="label">IDE</tspan><tspan class="dots"> ........................ </tspan><tspan class="v-purple">VSCode, IntelliJ IDEA</tspan></text>
 
-  <text class="i1" x="480" y="110"><tspan class="label">OS</tspan><tspan class="dots"> ................... </tspan><tspan class="v-cyan">Guatemala, Cloud-native</tspan></text>
-  <text class="i2" x="480" y="133"><tspan class="label">Uptime</tspan><tspan class="dots"> .............. </tspan><tspan class="v-green">4+ years engineering</tspan></text>
-  <text class="i3" x="480" y="156"><tspan class="label">Host</tspan><tspan class="dots"> ................ </tspan><tspan class="v-yellow">Olive Tech GT</tspan></text>
-  <text class="i4" x="480" y="179"><tspan class="label">Kernel</tspan><tspan class="dots"> .............. </tspan><tspan class="v-orange">Systems Engineering</tspan></text>
-  <text class="i5" x="480" y="202"><tspan class="label">IDE</tspan><tspan class="dots"> ................. </tspan><tspan class="v-purple">VSCode, IntelliJ IDEA</tspan></text>
+  <text class="sep i5" x="40" y="248">────────────────────────────────────────────────────────────────────────────</text>
 
-  <text class="sep i5" x="480" y="225">──────────────────────────────────────</text>
+  <text class="i6" x="40" y="276"><tspan class="label">Languages.Code</tspan><tspan class="dots"> ........... </tspan><tspan class="v-cyan">TypeScript, JavaScript, Python, Java, C++, SQL</tspan></text>
+  <text class="i7" x="40" y="304"><tspan class="label">Languages.Human</tspan><tspan class="dots"> .......... </tspan><tspan class="v-green">English, Spanish</tspan></text>
+  <text class="i8" x="40" y="332"><tspan class="label">Frameworks</tspan><tspan class="dots"> ............... </tspan><tspan class="v-yellow">React, Next.js, Angular, Node.js, Express</tspan></text>
+  <text class="i9" x="40" y="360"><tspan class="label">Cloud</tspan><tspan class="dots"> .................... </tspan><tspan class="v-orange">GCP, Docker, CI/CD</tspan></text>
+  <text class="i10" x="40" y="388"><tspan class="label">AI/ML</tspan><tspan class="dots"> .................... </tspan><tspan class="v-purple">TensorFlow, Python</tspan></text>
+  <text class="i11" x="40" y="416"><tspan class="label">Security</tspan><tspan class="dots"> ................. </tspan><tspan class="v-red">Threat Modeling, Vuln Assessment, Secure Arch</tspan></text>
 
-  <text class="i6" x="480" y="252"><tspan class="label">Languages.Code</tspan><tspan class="dots"> ...... </tspan><tspan class="v-cyan">TypeScript, JavaScript,</tspan></text>
-  <text class="i6" x="480" y="269"><tspan class="dots">                        </tspan><tspan class="v-cyan">Python, Java, C++, SQL</tspan></text>
-  <text class="i7" x="480" y="295"><tspan class="label">Languages.Human</tspan><tspan class="dots"> ..... </tspan><tspan class="v-green">English, Spanish</tspan></text>
-  <text class="i8" x="480" y="321"><tspan class="label">Frameworks</tspan><tspan class="dots"> .......... </tspan><tspan class="v-yellow">React, Next.js, Angular,</tspan></text>
-  <text class="i8" x="480" y="338"><tspan class="dots">                        </tspan><tspan class="v-yellow">Node.js, Express</tspan></text>
-  <text class="i9" x="480" y="364"><tspan class="label">Cloud</tspan><tspan class="dots"> ............... </tspan><tspan class="v-orange">GCP, Docker, CI/CD</tspan></text>
-  <text class="i10" x="480" y="390"><tspan class="label">AI/ML</tspan><tspan class="dots"> ............... </tspan><tspan class="v-purple">TensorFlow, Python</tspan></text>
+  <text class="sep i12" x="40" y="440">────────────────────────────────────────────────────────────────────────────</text>
 
-  <text class="i11" x="480" y="416"><tspan class="label">Security</tspan><tspan class="dots"> ............ </tspan><tspan class="v-red">Threat Modeling,</tspan></text>
-  <text class="i11" x="480" y="433"><tspan class="dots">                        </tspan><tspan class="v-red">Vulnerability Assessment,</tspan></text>
-  <text class="i11" x="480" y="450"><tspan class="dots">                        </tspan><tspan class="v-red">Secure Architecture</tspan></text>
-
-  <text class="sep i12" x="480" y="475">──────────────────────────────────────</text>
-
-  <text class="i12" x="480" y="500"><tspan class="label">Currently</tspan><tspan class="dots"> ........... </tspan><tspan class="v-pink">Master's in Cybersecurity</tspan></text>
-  <text class="i13" x="480" y="526"><tspan class="label">Focus</tspan><tspan class="dots"> ............... </tspan><tspan class="v-cyan">API Architecture +</tspan></text>
-  <text class="i13" x="480" y="543"><tspan class="dots">                        </tspan><tspan class="v-cyan">Cloud Integrations</tspan></text>
-  <text class="i13" x="480" y="569"><tspan class="label">Portfolio</tspan><tspan class="dots"> ........... </tspan><tspan class="v-green">pmorales.vercel.app</tspan></text>
+  <text class="i12" x="40" y="468"><tspan class="label">Currently</tspan><tspan class="dots"> ................ </tspan><tspan class="v-pink">Master's in Cybersecurity</tspan></text>
+  <text class="i13" x="40" y="496"><tspan class="label">Focus</tspan><tspan class="dots"> .................... </tspan><tspan class="v-cyan">API Architecture + Cloud Integrations</tspan></text>
 
   <!-- Color palette -->
-  <rect class="c0" x="480" y="588" width="34" height="15" rx="2" fill="#222831"/>
-  <rect class="c1" x="519" y="588" width="34" height="15" rx="2" fill="#393E46"/>
-  <rect class="c2" x="558" y="588" width="34" height="15" rx="2" fill="#948979"/>
-  <rect class="c3" x="597" y="588" width="34" height="15" rx="2" fill="#DFD0B8"/>
-  <rect class="c4" x="636" y="588" width="34" height="15" rx="2" fill="#56D4DD"/>
-  <rect class="c5" x="675" y="588" width="34" height="15" rx="2" fill="#9FEF00"/>
-  <rect class="c6" x="714" y="588" width="34" height="15" rx="2" fill="#FF9900"/>
-  <rect class="c7" x="753" y="588" width="34" height="15" rx="2" fill="#BD93F9"/>
+  <rect class="c0" x="40"  y="496" width="34" height="3" rx="1" fill="#222831"/>
+  <rect class="c1" x="79"  y="496" width="34" height="3" rx="1" fill="#393E46"/>
+  <rect class="c2" x="118" y="496" width="34" height="3" rx="1" fill="#948979"/>
+  <rect class="c3" x="157" y="496" width="34" height="3" rx="1" fill="#DFD0B8"/>
+  <rect class="c4" x="196" y="496" width="34" height="3" rx="1" fill="#56D4DD"/>
+  <rect class="c5" x="235" y="496" width="34" height="3" rx="1" fill="#9FEF00"/>
+  <rect class="c6" x="274" y="496" width="34" height="3" rx="1" fill="#FF9900"/>
+  <rect class="c7" x="313" y="496" width="34" height="3" rx="1" fill="#BD93F9"/>
 
-  <rect class="cursor" x="690" y="558" width="9" height="14" rx="1"/>
+  <!-- Blinking cursor -->
+  <rect class="cursor" x="630" y="486" width="9" height="14" rx="1"/>
 </svg>
