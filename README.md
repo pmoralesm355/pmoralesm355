@@ -1,11 +1,11 @@
 <div align="center">
 
-<!-- HEADER SECTION -->
+<!-- HEADER WAVE -->
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:222831,50:393E46,100:948979&height=200&section=header&text=Pablo%20Morales&fontSize=42&fontColor=DFD0B8&fontAlignY=35&desc=Full%20Stack%20Cloud%20Integration%20Engineer&descSize=16&descColor=948979&descAlignY=55&animation=fadeIn" />
 
 <!-- TYPING SVG -->
-<a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=22&duration=3500&pause=1000&color=DFD0B8&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%91%8B+Hello%2C+I'm+Pablo+David+Morales+Martinez;%E2%9A%A1+Systems+Engineer+%7C+Full+Stack+Developer;%F0%9F%94%90+Cloud+%26+Cybersecurity+Specialist;%F0%9F%9A%80+Building+secure%2C+scalable+platforms+on+GCP" alt="Typing SVG" />
+<a href="https://pmorales.vercel.app/">
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=22&duration=3500&pause=1000&color=DFD0B8&center=true&vCenter=true&repeat=true&width=700&height=80&lines=%F0%9F%91%8B+Hello%2C+I'm+Pablo+David+Morales+Martinez;%E2%9A%A1+Systems+Engineer+%7C+Full+Stack+Developer;%F0%9F%94%90+Cloud+%26+Cybersecurity+Specialist;%F0%9F%9A%80+Building+secure%2C+scalable+platforms+on+GCP" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -18,14 +18,16 @@
 
 </div>
 
-<!-- NEOFETCH PANEL - Colored SVG with animated fade-in -->
+<!-- ══════════════════════ NEOFETCH SVG ══════════════════════ -->
 <div align="center">
-<img src="./neofetch.svg" alt="neofetch" width="850" />
+
+<img src="./neofetch.svg" alt="neofetch" width="860" />
+
 </div>
 
 ---
 
-<!-- ABOUT ME -->
+<!-- ══════════════════════ ABOUT ══════════════════════ -->
 <div align="center">
 
 ### `>> whoami`
@@ -56,7 +58,7 @@ class Pablo:
 
 ---
 
-<!-- TECH STACK -->
+<!-- ══════════════════════ TECH STACK ══════════════════════ -->
 <div align="center">
 
 ### `>> cat tech_stack.yml`
@@ -81,7 +83,7 @@ class Pablo:
 ![GCP](https://img.shields.io/badge/Google_Cloud-222831?style=for-the-badge&logo=googlecloud&logoColor=4285F4)
 ![Docker](https://img.shields.io/badge/Docker-222831?style=for-the-badge&logo=docker&logoColor=2496ED)
 ![Git](https://img.shields.io/badge/Git-222831?style=for-the-badge&logo=git&logoColor=F05032)
-![GitHub Actions](https://img.shields.io/badge/CI%2FCD-222831?style=for-the-badge&logo=githubactions&logoColor=2088FF)
+![CI/CD](https://img.shields.io/badge/CI%2FCD-222831?style=for-the-badge&logo=githubactions&logoColor=2088FF)
 
 #### `// Data & AI/ML`
 ![SQL](https://img.shields.io/badge/SQL-222831?style=for-the-badge&logo=postgresql&logoColor=4169E1)
@@ -97,7 +99,7 @@ class Pablo:
 
 ---
 
-<!-- CERTIFICATIONS -->
+<!-- ══════════════════════ CERTIFICATIONS ══════════════════════ -->
 <div align="center">
 
 ### `>> ls certifications/`
@@ -159,7 +161,7 @@ class Pablo:
 
 ---
 
-<!-- GITHUB STATS -->
+<!-- ══════════════════════ GITHUB STATS ══════════════════════ -->
 <div align="center">
 
 ### `>> neofetch --stats`
@@ -167,19 +169,20 @@ class Pablo:
 <br/>
 
 <a href="https://github.com/pmoralesm355">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=pmoralesm355&show_icons=true&bg_color=222831&title_color=DFD0B8&text_color=948979&icon_color=DFD0B8&hide_border=true&count_private=true&ring_color=948979" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=pmoralesm355&show_icons=true&bg_color=222831&title_color=DFD0B8&text_color=948979&icon_color=DFD0B8&hide_border=true&count_private=true&ring_color=948979" />
 </a>
+&nbsp;
 <a href="https://github.com/pmoralesm355">
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmoralesm355&layout=compact&bg_color=222831&title_color=DFD0B8&text_color=948979&hide_border=true&langs_count=8" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmoralesm355&layout=compact&bg_color=222831&title_color=DFD0B8&text_color=948979&hide_border=true&langs_count=8" />
 </a>
 
-<br/>
+<br/><br/>
 
 <a href="https://github.com/pmoralesm355">
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=pmoralesm355&background=222831&ring=DFD0B8&fire=DFD0B8&currStreakLabel=DFD0B8&sideLabels=948979&currStreakNum=948979&sideNums=948979&dates=948979&stroke=393E46&hide_border=true" />
+    <img src="https://streak-stats.demolab.com/?user=pmoralesm355&background=222831&ring=DFD0B8&fire=DFD0B8&currStreakLabel=DFD0B8&sideLabels=948979&currStreakNum=948979&sideNums=948979&dates=948979&stroke=393E46&hide_border=true" />
 </a>
 
-<br/>
+<br/><br/>
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=pmoralesm355&bg_color=222831&color=948979&line=DFD0B8&point=DFD0B8&area_color=393E46&area=true&hide_border=true&custom_title=Contribution%20Graph" width="95%" />
 
@@ -187,20 +190,7 @@ class Pablo:
 
 ---
 
-<!-- SNAKE ANIMATION -->
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pmoralesm355/pmoralesm355/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pmoralesm355/pmoralesm355/output/github-snake.svg" />
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/pmoralesm355/pmoralesm355/output/github-snake-dark.svg" width="100%" />
-</picture>
-
-</div>
-
----
-
-<!-- FOOTER -->
+<!-- ══════════════════════ FOOTER ══════════════════════ -->
 <div align="center">
 
 ```
