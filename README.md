@@ -1,154 +1,251 @@
-```
-                                                    ██████╗  █████╗ ██████╗ ██╗      ██████╗
-                                                    ██╔══██╗██╔══██╗██╔══██╗██║     ██╔═══██╗
-                                                    ██████╔╝███████║██████╔╝██║     ██║   ██║
-                                                    ██╔═══╝ ██╔══██║██╔══██╗██║     ██║   ██║
-                                                    ██║     ██║  ██║██████╔╝███████╗╚██████╔╝
-                                                    ╚═╝     ╚═╝  ╚═╝╚═════╝ ╚══════╝ ╚═════╝
-```
-
 <div align="center">
 
-### `> Systems Engineer | Full Stack Developer | Cloud & Cybersecurity`
+<!-- HEADER SECTION -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:222831,50:393E46,100:948979&height=200&section=header&text=Pablo%20Morales&fontSize=42&fontColor=DFD0B8&fontAlignY=35&desc=Full%20Stack%20Cloud%20Integration%20Engineer&descSize=16&descColor=948979&descAlignY=55&animation=fadeIn" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/pablo-david-morales-1a39bb255)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pablo.moralesm355@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-222831?style=for-the-badge&logo=vercel&logoColor=DFD0B8)](https://pmoralesm355.github.io)
+<!-- TYPING SVG -->
+<a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=500&size=22&duration=3500&pause=1000&color=DFD0B8&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=%F0%9F%91%8B+Hello%2C+I'm+Pablo+David+Morales+Martinez;%E2%9A%A1+Systems+Engineer+%7C+Full+Stack+Developer;%F0%9F%94%90+Cloud+%26+Cybersecurity+Specialist;%F0%9F%9A%80+Building+secure%2C+scalable+platforms+on+GCP" alt="Typing SVG" />
+</a>
+
+<br/>
+
+<!-- SOCIAL BADGES -->
+[![Portfolio](https://img.shields.io/badge/Portfolio-222831?style=for-the-badge&logo=googlechrome&logoColor=DFD0B8)](https://pmorales.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-222831?style=for-the-badge&logo=linkedin&logoColor=0A66C2)](https://linkedin.com/in/pablo-david-morales-1a39bb255)
+[![Gmail](https://img.shields.io/badge/Email-222831?style=for-the-badge&logo=gmail&logoColor=EA4335)](mailto:pablo.moralesm355@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-222831?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pmoralesm355)
+
+</div>
+
+<!-- ASCII ART PORTRAIT + INFO PANEL -->
+```
+
+       ,,ggg@@@@@@Nw,,              pablo@morales ─────────────────────────────────
+      ,M*|` ||*%gNM=]mM%g||%N,
+     p!'`  '! |'`  '''||jhlj%w        OS: ................... Guatemala, Cloud-native
+    ,@L `    ,,    ''!`|j%M]%M         Uptime: .............. 4+ years engineering
+    ]j'`  .,wp@pw,    ''''|%Wg         Host: ................ Olive Tech GT
+   /{|]|]@@@@@@@@pp.       |||||       Kernel: .............. Systems Engineering
+  `~ ']@@@@@@@@@@@@p    ''''  `        IDE: ................. VSCode, IntelliJ IDEA
+   , :]%%@@@@%%%%%k%h '*||mkr   *
+   ' j%M`    |jkk'  ~nrn=|i   ,`      Languages.Code: ...... TypeScript, JavaScript,
+   !  jrr*^`        `"! L'':!                                Python, Java, C++, SQL
+   j  lp;,.  ,/ @@   ,;\nmy " ,~      Languages.Human: ..... English, Spanish
+   i r @@@@mmHM @@@@ `^****M*,p ;,
+   | ]@@@@HHH]g@M%%%%H,jmgpmb% `j     Frameworks: .......... React, Next.js, Angular,
+   ;%%%%%k%@[,.n|;,j%%k|%k%%`,[                              Node.js, Express
+    H|%%k%%%j%k||,;;j;!!`|%ij}]@
+    "djjmkL,"]][,,,,wwxw,|#kjk`        Cloud: ............... GCP, Docker, CI/CD
+      %;%km%%%%M|%%jkkii||||[          AI/ML: ............... TensorFlow, Python
+       kjj%%kkkl|!|||||j||||"          Security: ............ Threat Modeling,
+        |jm%H@@b%%kkmk%i!|,[                                 Vulnerability Assessment,
+         @p|j%%%%jkk|||j*`;j[                                 Secure Architecture
+          ]@@@g|'''''''  `,;j%k
+       @@@@mgmp,,,,;jjj%%k%            Currently: ........... Master's in Cybersecurity
+      @@@@@@@%%kgki|jjjjj%k%@          Focus: ............... API Architecture +
+   . ^['' %@@@H#%k{illjkjj%%%  `,                             Cloud Integrations
+  =[' `  . %H#%%%%H@gkilljjj%kk%"
+                                        Portfolio: ........... pmorales.vercel.app
+```
+
+---
+
+<!-- ABOUT ME -->
+<div align="center">
+
+### `>> whoami`
+
+</div>
+
+```python
+class Pablo:
+    def __init__(self):
+        self.name       = "Pablo David Morales Martinez"
+        self.role       = "Full Stack Cloud Integration Engineer"
+        self.company    = "Olive Tech GT"
+        self.location   = "Guatemala"
+        self.education  = ["B.Sc. Systems Engineering", "M.Sc. Cybersecurity (in progress)"]
+        self.experience = "4+ years"
+
+    def current_focus(self):
+        return [
+            "Architecting secure API gateways on Google Cloud Platform",
+            "Designing integration-first distributed systems",
+            "Expanding cybersecurity expertise through Master's program",
+            "Exploring AI/ML for intelligent automation"
+        ]
+
+    def philosophy(self):
+        return "Security-first. Clean architecture. Measurable impact."
+```
+
+---
+
+<!-- TECH STACK -->
+<div align="center">
+
+### `>> cat tech_stack.yml`
+
+<br/>
+
+#### `// Frontend`
+![React](https://img.shields.io/badge/React-222831?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-222831?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-222831?style=for-the-badge&logo=angular&logoColor=DD0031)
+![TypeScript](https://img.shields.io/badge/TypeScript-222831?style=for-the-badge&logo=typescript&logoColor=3178C6)
+![JavaScript](https://img.shields.io/badge/JavaScript-222831?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![Tailwind](https://img.shields.io/badge/Tailwind-222831?style=for-the-badge&logo=tailwindcss&logoColor=06B6D4)
+
+#### `// Backend & APIs`
+![Node.js](https://img.shields.io/badge/Node.js-222831?style=for-the-badge&logo=nodedotjs&logoColor=339933)
+![Express](https://img.shields.io/badge/Express-222831?style=for-the-badge&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-222831?style=for-the-badge&logo=python&logoColor=3776AB)
+![REST APIs](https://img.shields.io/badge/REST_APIs-222831?style=for-the-badge&logo=fastapi&logoColor=009688)
+
+#### `// Cloud & DevOps`
+![GCP](https://img.shields.io/badge/Google_Cloud-222831?style=for-the-badge&logo=googlecloud&logoColor=4285F4)
+![Docker](https://img.shields.io/badge/Docker-222831?style=for-the-badge&logo=docker&logoColor=2496ED)
+![Git](https://img.shields.io/badge/Git-222831?style=for-the-badge&logo=git&logoColor=F05032)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-222831?style=for-the-badge&logo=githubactions&logoColor=2088FF)
+
+#### `// Data & AI/ML`
+![SQL](https://img.shields.io/badge/SQL-222831?style=for-the-badge&logo=postgresql&logoColor=4169E1)
+![MySQL](https://img.shields.io/badge/MySQL-222831?style=for-the-badge&logo=mysql&logoColor=4479A1)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-222831?style=for-the-badge&logo=tensorflow&logoColor=FF6F00)
+
+#### `// Security`
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-222831?style=for-the-badge&logo=hackthebox&logoColor=9FEF00)
+![Threat Modeling](https://img.shields.io/badge/Threat_Modeling-222831?style=for-the-badge&logo=openbugbounty&logoColor=F44336)
+![Security Audits](https://img.shields.io/badge/Security_Audits-222831?style=for-the-badge&logo=owasp&logoColor=white)
 
 </div>
 
 ---
 
-```js
-const pablo = {
-    role: "Full Stack Cloud Integration Engineer",
-    company: "Olive Tech GT",
-    location: "Guatemala",
-    education: {
-        degree: "Systems Engineering",
-        pursuing: "Master's in Cybersecurity"
-    },
-    focus: ["Cloud Integrations", "API Architecture", "Security-First Development"],
-    currently: "Building secure, scalable API gateways on Google Cloud Platform"
-};
-```
+<!-- CERTIFICATIONS -->
+<div align="center">
 
----
+### `>> ls certifications/`
 
-### `⚡ Tech Stack`
+</div>
 
-<table>
-<tr><td>
+<br/>
 
-**Frontend**
+<table align="center">
+<tr>
+<td align="center" width="50%">
 
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+<img src="https://img.shields.io/badge/SCRUMstudy-222831?style=for-the-badge&logo=scrumalliance&logoColor=DFD0B8" />
 
-</td><td>
+**Scrum Fundamentals Certified (SFC)**
 
-**Backend & APIs**
+`Scrum principles, roles, events & artifacts`
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000?style=flat-square&logo=express&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square&logo=postman&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+[![Verify](https://img.shields.io/badge/Verify_Credential-393E46?style=flat-square&logoColor=DFD0B8)](https://www.scrumstudy.com/certification/verify?type=SFC&number=1102133)
 
-</td></tr>
-<tr><td>
+</td>
+<td align="center" width="50%">
 
-**Cloud & DevOps**
+<img src="https://img.shields.io/badge/IBM-222831?style=for-the-badge&logo=ibm&logoColor=DFD0B8" />
 
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+**Project Management Fundamentals**
 
-</td><td>
+`Planning, execution, monitoring & stakeholders`
 
-**Data & AI/ML**
+[![Verify](https://img.shields.io/badge/Verify_Credential-393E46?style=flat-square&logoColor=DFD0B8)](https://www.credly.com/earner/earned/badge/db47ae63-7080-472f-99d9-5d357860e0cd)
 
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-222831?style=flat-square&logo=hackthebox&logoColor=9FEF00)
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
 
-</td></tr>
+<img src="https://img.shields.io/badge/Skillsoft-222831?style=for-the-badge&logo=amazonaws&logoColor=FF9900" />
+
+**AWS DevOps Engineer Pro 2024**
+
+`CI/CD pipelines, automation & IaC on AWS`
+
+[![Verify](https://img.shields.io/badge/Verify_Credential-393E46?style=flat-square&logoColor=DFD0B8)](https://skillsoft.digitalbadges.skillsoft.com/47be569d-fe4a-4121-87fc-e5825a2bddb2#acc.bAtqfioh)
+
+</td>
+<td align="center" width="50%">
+
+<img src="https://img.shields.io/badge/Microsoft-222831?style=for-the-badge&logo=microsoft&logoColor=DFD0B8" />
+
+**Career Essentials in Cybersecurity**
+
+`Threat landscape, IAM & security operations`
+
+[![Verify](https://img.shields.io/badge/Verify_Credential-393E46?style=flat-square&logoColor=DFD0B8)](https://www.linkedin.com/learning/certificates/d83a0b37a7f735f48115e5ed0849202e602c3b43c14bdad258e4b83385e51ad2)
+
+</td>
+</tr>
 </table>
 
 ---
 
-### `📋 Career Timeline`
-
-```
-2026 ─── Full Stack Cloud Integration Engineer @ Olive Tech GT
-         ├── Production APIs on GCP for enterprise data exchange
-         ├── CI/CD pipelines with full traceability
-         └── Security-first integration patterns
-
-2025 ─── Full Stack Engineer @ Ubymed
-         ├── React interfaces aligned with product & UX specs
-         ├── SQL/MySQL query optimization on critical pipelines
-         └── Code quality via Scrum rituals and peer reviews
-
-2024 ─── Full Stack Engineer Intern @ Tigo Guatemala
-         ├── SQL workflow optimization for high-traffic environments
-         └── Agile sprints for testing and iterative releases
-
-2023 ─── Web Security Analyst @ Grupo CEMACO
-         ├── Attack surface mapping: auth, sessions, data exposure
-         ├── Risk-ranked vulnerability reports and remediation plans
-         └── Security awareness training across teams
-
-2022 ─── Information Technology Associate @ Conduent
-         ├── Operational data → actionable KPIs for leadership
-         └── Automated reporting workflows and vendor management
-
-2022 ─── Web Developer Intern @ Terabit
-         ├── Full stack apps: Angular + Node.js + Express + MySQL
-         └── End-to-end CRUD, API layers, and auth flows
-```
-
----
-
-### `🏅 Certifications`
-
-| Credential | Issuer | Verify |
-|:-----------|:-------|:------:|
-| **Scrum Fundamentals Certified (SFC™)** | SCRUMstudy | [🔗](https://www.scrumstudy.com/certification/verify?type=SFC&number=1102133) |
-| **Project Management Fundamentals** | IBM | [🔗](https://www.credly.com/earner/earned/badge/db47ae63-7080-472f-99d9-5d357860e0cd) |
-| **AWS DevOps Engineer Pro 2024: CI/CD Pipelines** | Conduent / Skillsoft | [🔗](https://skillsoft.digitalbadges.skillsoft.com/47be569d-fe4a-4121-87fc-e5825a2bddb2#acc.bAtqfioh) |
-| **Career Essentials in Cybersecurity** | Microsoft & LinkedIn | [🔗](https://www.linkedin.com/learning/certificates/d83a0b37a7f735f48115e5ed0849202e602c3b43c14bdad258e4b83385e51ad2) |
-
----
-
-### `📊 GitHub Stats`
-
+<!-- GITHUB STATS -->
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=pmoralesm355&show_icons=true&bg_color=222831&title_color=DFD0B8&text_color=948979&icon_color=DFD0B8&hide_border=true&count_private=true" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmoralesm355&layout=compact&bg_color=222831&title_color=DFD0B8&text_color=948979&hide_border=true&langs_count=8" height="170" />
+### `>> neofetch --stats`
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=pmoralesm355&background=222831&ring=DFD0B8&fire=DFD0B8&currStreakLabel=DFD0B8&sideLabels=948979&currStreakNum=948979&sideNums=948979&dates=948979&hide_border=true" />
+<br/>
+
+<a href="https://github.com/pmoralesm355">
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=pmoralesm355&show_icons=true&bg_color=222831&title_color=DFD0B8&text_color=948979&icon_color=DFD0B8&hide_border=true&count_private=true&ring_color=948979" />
+</a>
+<a href="https://github.com/pmoralesm355">
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pmoralesm355&layout=compact&bg_color=222831&title_color=DFD0B8&text_color=948979&hide_border=true&langs_count=8" />
+</a>
+
+<br/>
+
+<a href="https://github.com/pmoralesm355">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=pmoralesm355&background=222831&ring=DFD0B8&fire=DFD0B8&currStreakLabel=DFD0B8&sideLabels=948979&currStreakNum=948979&sideNums=948979&dates=948979&stroke=393E46&hide_border=true" />
+</a>
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=pmoralesm355&bg_color=222831&color=948979&line=DFD0B8&point=DFD0B8&area_color=393E46&area=true&hide_border=true&custom_title=Contribution%20Graph" width="95%" />
 
 </div>
 
 ---
 
+<!-- SNAKE ANIMATION -->
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/pmoralesm355/pmoralesm355/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/pmoralesm355/pmoralesm355/output/github-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/pmoralesm355/pmoralesm355/output/github-snake-dark.svg" width="100%" />
+</picture>
+
+</div>
+
+---
+
+<!-- FOOTER -->
 <div align="center">
 
 ```
-┌──────────────────────────────────────────────────────────────┐
-│  "I engineer platforms that connect products, data, and      │
-│   processes through clean architecture, robust APIs, and     │
-│   high-impact cloud integrations — with a security-first     │
-│   mindset sharpened by a Master's in Cybersecurity."         │
-└──────────────────────────────────────────────────────────────┘
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║   "I engineer modern, reliable platforms that connect products, data,      ║
+║    and processes through clean architecture, robust APIs, and high-impact   ║
+║    cloud integrations — with a security-first mindset sharpened by a       ║
+║    Master's in Cybersecurity."                                             ║
+║                                                                            ║
+╚══════════════════════════════════════════════════════════════════════════════╝
 ```
 
-![Profile Views](https://komarev.com/ghpvc/?username=pmoralesm355&color=222831&style=flat-square&label=Profile+Views)
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=pmoralesm355&color=393E46&style=for-the-badge&label=PROFILE+VIEWS)
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:948979,50:393E46,100:222831&height=120&section=footer" />
 
 </div>
